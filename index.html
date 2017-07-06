@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+        <!--CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="custom.css">
+        <!--javscript and frameworks-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+        <script src="https://use.fontawesome.com/bc8ef98b9c.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="js/jquery.ui.touch-punch.min.js"></script>
+        <script src="js/picker.js"></script>
+        <script src="js/functions.js"></script>
+        <title>Environmental Management - Sorting Game</title>
+    </head>
+    <body>
+        <div style="clear:both;height:25px;"></div>
+        <div id="dt-view" class="container" >
+            <!--header-->
+            <div class="col-md-12">
+                <div class="col-md-3 pull-left" id="logo"><img src="images/rr-logo.png" style="width:150px;"></div>
+                <div class="col-md-6  pull-right" id="howto">You will have 45 seconds to sort the items into the carts.
+                    Drag and drop the item to the correct bin.</div>
+            </div><!--header ends-->
+            <div style="clear:both;height:25px;"></div>
+            <div class="rounded gameboard"><!--game spot-->
+                <!--topline with score board and timer-->
+                <div class="col-md-12" style="height:.5in;">
+                    <div class="pull-left board rounded" id="score">SCORE<div id="points"></div></div>
+                    <div class="pull-right board rounded" id="timer">TIMER<div id="clock"></div></div>
+                </div><!--boards end-->
+                <!--images spot-->
+                <div class="col-md-12" id="imagezone">
+                    <div class="col-md-4 centered" id="imagebox"><!--centered box-->
+                        <div class="rounded btn-recycle" id="start" style="margin-top:100px !important;">Start <i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+                    </div><!--centered box ends-->
+                </div><!--image zone ends-->
+                <!--answer-->
+                <div  id="resultpopup" style="text-align:center;">
+                
+                </div>
+                <!--can zone-->
+                <div id="canzone">
+                    <div class="pull-left bin" id="recycle">
+                        <img src="images/recycle-bin.png">
+                    </div>
+                    <div class="pull-right bin" id="trash">
+                        <img src="images/trash-bin.png">
+                    </div>
+                </div>
+                
+            </div><!--game ends-->
+            <div style="clear:both;height:25px;"></div>
+            <!--footer-->
+            <footer class="col-md-12" style="padding-bottom:15px;">
+                <div class="col-md-3 pull-left" id="emlogo"><img src="images/recycle-logo.png" style="width:100px;"></div>
+                <div class="col-md-8" id="disclaimer" style="text-align:Center;">E-mail your comments or questions about this site to <a href="mailto:publicinfo@charlestoncounty.org
+" style="color:#fff;">publicinfo@charlestoncounty.org</a>
+                    Report technical problems with this site to <a href="mailto:webmaster@charlestoncounty.org"style="color:#fff;">webmaster@charlestoncounty.org</a>
+
+                    This is the official web site for Charleston County Government.
+                    Copyright © 2000-2016, Charleston County, South Carolina. All rights reserved.
+                    <a href="http://www.charlestoncounty.org/legal-disclaimer.php" style="color:#fff;">Legal Disclaimer</a> | <a href="http://www.charlestoncounty.org/refund-disclaimer.php"style="color:#fff;">Refund Disclaimer</a> | <a href="http://www.charlestoncounty.org/privacy-policy.php" style="color:#fff;">Privacy Policy</a></div>
+            </footer><!--footer ends-->
+        </div>
+        <div id="mobile-view">
+        	Sorry, This Game can only be viewed on Tablets and Desktops.
+        </div>
+    </body>
+</html>
