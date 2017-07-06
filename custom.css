@@ -1,0 +1,98 @@
+/*DEFAULT HTML TAGS*/
+body{color:#fff;font-family: 'Nunito', sans-serif;background-color:#0092FF;
+/* opacity:0;
+ -webkit-animation-name: start;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+     -webkit-animation-delay: 1s;
+      -webkit-animation-fill-mode: forwards;
+      animation-name: start;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+     animation-delay: 1s;
+      animation-fill-mode: forwards;*/
+
+}
+
+/*BUTTONS*/
+.btn-recycle{width:200px;cursor:pointer;background-color:#F15A29;color:#FFF;border:solid 3px #fff;padding:7px;border-radius:5px;font-size:25pt;
+margin-left:auto;margin-right:auto;text-align:center;margin-top:15px !important;
+}
+.btn-recycle:hover{color:#fff !important;}
+
+/*TYPE*/
+#resultpopup{position:absolute;left:0px;top:55%;width:100%;}
+.endcopy{font-size:14pt;}
+
+/*IMAGES*/
+.item{width:150px;}
+
+/*BOXES*/
+.board{background-color:#666;height:.65in;width:100px;color:#fff;text-align:center;padding:5px;display:none;}
+.rounded{border-radius:5px;}
+.gameboard{overflow:hidden;border:solid 4px #4069b2;height:5.75in;padding:15px 15px 0px 15px;background-color:#FBB040;background-image: url("images/circle-bg.png");background-repeat: no-repeat;
+background-position:center 300px;}
+#imagezone{height:3.5in;text-align:center !important;padding-top:15px;}
+#imagebox{width:30%;margin-left:35%;margin-right:35%;}
+#canzone{width:80%;margin-left:10%;margin-right:10%;}
+.bin{cursor:pointer;}
+
+/*SPACING*/
+.centered{margin-left:35%;margin-right:35%;}
+
+/*ANIMATION*/
+@keyframes start {
+    0%   {opacity:0;}
+    100% {opacity:1;}
+    
+}
+#howto{text-align:right !important;font-size:16pt;}
+#mobile-view{display:none;}
+@media only screen and (max-width: 1100px) {
+   .bin img{width:200px;}
+   #imagezone{height:3.9in;text-align:center;padding-top:15px;}
+   #howto{width:70%;}
+
+   }
+   @media only screen and (max-width: 800px) {
+   #canzone{width:100%;margin-left:0;margin-right:0;}
+   .item{margin:0;}
+   }
+
+   @media only screen and (max-width: 500px) {
+   #dt-view{display:none;}
+   #mobile-view{display:block;}
+   .endcopy{font-size:8pt;}
+   .bin img{width:100px;}
+   .board{width:75px;height:50px;}
+   .mobile-hide{display:none;}
+   .bin img{width:100px;}
+   #howto{width:100% !important;text-align:center !important;clear:both !important;}
+   #imagezone{height:4.5in;text-align:center;padding-top:15px;font-size:11pt;width:100%;margin-left:auto;margin-right:auto;}
+   #logo{width:100% !important;text-align:center;}
+   #disclaimer{clear:both;}
+   #emlogo{width:100%;text-align:center;}
+   #imagebox {
+   padding:0px;
+    margin-left: -5px;
+    margin-right: 0%;
+    width: 100%;
+}
+#howto{text-align:center !important;font-size:11pt;}
+#resultpopup{}
+.btn-recycle {
+    font-size: 15pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px !important;
+    padding: 7px;
+    text-align: center;
+    width: 200px;
+}
+#canzone{width:100%;margin-left:0;margin-right:0;margin-top:.4in;}
+.item{width:80px !important;margin-top:50px;}
+#imagezone{height:4.1in;}
+#innerimgbox{width:100px;}
+#innerimgbox img{width:50px;}
+.itemname{display:none;}
+   }
